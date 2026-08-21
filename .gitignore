@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and test artifacts
+.build/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local application data
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
