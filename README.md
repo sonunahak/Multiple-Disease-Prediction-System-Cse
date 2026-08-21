@@ -76,3 +76,5 @@ python -m streamlit run scripts/app.py --server.headless true --server.port 8501
 - The application loads model files from the `models/` directory relative to `scripts/app.py`.
 - Prediction history is stored in `patient_records.db` in the current working directory.
 - This project is for educational and demonstration purposes. Predictions are not medical diagnoses.
+## Author
+- Sonu Nahak
